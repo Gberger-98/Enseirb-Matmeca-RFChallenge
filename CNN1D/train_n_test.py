@@ -4,7 +4,6 @@ import pickle
 
 # to run this file from within folder
 os.chdir(os.getcwd())
-print(os.path.abspath(os.curdir))
 sys.path.append(os.curdir)
 import rfcutils
 get_sinr = lambda s, i: 10*np.log10(np.mean(np.abs(s)**2)/np.mean(np.abs(i)**2))
@@ -12,6 +11,7 @@ get_sinr = lambda s, i: 10*np.log10(np.mean(np.abs(s)**2)/np.mean(np.abs(i)**2))
 import random
 random.seed(0)
 np.random.seed(0)
+
 
 from CNN import get_model
 from Dataloader import TrainSeq
