@@ -25,20 +25,6 @@ rm rfc_dataset.zip
 The python notebook [`notebook/PlotBer.ipynb`](https://github.com/Gberger-98/Enseirb-Matmeca-RFChallenge/blob/main/notebook/PlotBer.ipynb) illustrate our result.
 
 ---
-
-### Note regarding examples:
-As some of the saved files in the example methods are large (e.g. saved models and statistics), they are not included in this Git repository. 
-You can get get the full contents of the `example` folder using the following commands:
-```bash
-wget -O rfc_example.zip "https://www.dropbox.com/s/j210lhqxsbx85o4/rfc_example.zip?dl=0"
-unzip -o rfc_example.zip
-rm rfc_example.zip
-```
-NB: `unzip -o` overwrites files in the example folder. If you have modified or added files to the example folder, back up those files before running the above commands.
-
-This step is only required if you wish to run scripts or functions provided in the `example` folder.
-
----
 ### Direct Download Links:
 * [Dataset (Training set)](https://www.dropbox.com/s/clh4xq7u3my3nx6/rfc_dataset.zip?dl=0) (Latest Version: Jun 15, 2021)
 * [CNN 1D (model)](https://www.dropbox.com/s/54gezgxlysc2irx/models.rar?dl=0) (Latest Version: Jan 26, 2022)
