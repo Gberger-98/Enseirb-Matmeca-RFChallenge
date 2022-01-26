@@ -41,4 +41,4 @@ This step is only required if you wish to run scripts or functions provided in t
 ---
 ### Direct Download Links:
 * [Dataset (Training set)](https://www.dropbox.com/s/clh4xq7u3my3nx6/rfc_dataset.zip?dl=0) (Latest Version: Jun 15, 2021)
-* [CNN 1D (model)] (https://www.dropbox.com/s/54gezgxlysc2irx/models.rar?dl=0) (Latest Version: Jan 26, 2022)
+* [CNN 1D (model)](https://www.dropbox.com/s/54gezgxlysc2irx/models.rar?dl=0) (Latest Version: Jan 26, 2022)
